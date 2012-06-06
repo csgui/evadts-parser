@@ -1,4 +1,4 @@
 (ns parser.handlers.st)
 
-(defn handle-st [line]
-  (println line))
+(defn handle-st [data]
+  (hash-map "ST" (for [value data] (hash-map "id" (inc (.indexOf data value)) "value" value))))
