@@ -6,7 +6,7 @@ The aim of the EVA-DTS is to provide a standard format for data which is require
 
 EVA-DTS makes it possible to transfer information from vending machines/payment systems to PC-based accounting/management systems and/or the opposite way.
 
-For more information check EVA-DTS website http://www.vending-europe.eu/standards/EVA-DTS.html
+For more information check the European Vending Association [website](http://www.vending-europe.eu/standards/EVA-DTS.html).
 
 ### Parser
 
@@ -14,11 +14,11 @@ This tool will output an EVA-DTS file to a human readable form.
 
 Group parsing supported in this version.
 
-. DXS
-. ST
-. VA
-. ID
-. CB
+* DXS
+* ST
+* ID
+* VA
+* CB
 
 This is a **WIP** project.
 
