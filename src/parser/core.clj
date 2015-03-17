@@ -15,6 +15,6 @@
     (group-handler (group-data line))
     (println "Unknown group!")))
 
-(with-open [rdr (io/reader "/Users/christian/DTS_29_05.txt")]
+(with-open [rdr (io/reader *command-line-arguments*)]
   (doseq [line (line-seq rdr)]
     (print (parse line))))
